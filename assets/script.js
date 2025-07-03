@@ -83,7 +83,7 @@ const addnewnote = (text = ' ')=>{
 }
 
 //getting data from local storage
-const notes =JSON.parse(localStorage.getItem('notes')) //string to array
+const notes = JSON.parse(localStorage.getItem('notes')) //string to array
 
 if(notes){
     notes.forEach((note)=>{
